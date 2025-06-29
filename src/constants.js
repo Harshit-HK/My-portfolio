@@ -45,7 +45,7 @@ import StayhostLogo from "./assets/work_logo/Stayhost.png";
 import foleverLogo from "./assets/work_logo/forever.png";
 import portfolioLogo from "./assets/work_logo/portfolio.png";
 import passopLogo from "./assets/work_logo/passop.png";
-import FoodzoneLogo from "./assets/work_logo/Foodzone.png";
+import cityLogo from "./assets/work_logo/3D_City.png";
 import imagesearchLogo from "./assets/work_logo/image_search.png";
 import twitterLogo from "./assets/work_logo/twitter.png";
 
@@ -184,17 +184,6 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
-    description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/Harshit-HK/GitHub-Profile-Search/tree/main/GitHub-Profile-detective",
-    webapp: "https://git-hub-profile-search-lake.vercel.app/",
-  },
-  {
-    id: 1,
     title: "Stay Finder",
     description:
       "A full-stack booking platform where users can explore, filter, and book properties for short stays, while hosts can manage listings, track bookings, and set availability. The platform features secure Stripe payments, real-time location with Google Maps, and dual authentication systems for users and hosts, providing a seamless and scalable stay management experience.",
@@ -210,6 +199,17 @@ export const projects = [
     github: "https://github.com/Harshit-HK/Stay-Finder",
     webapp: "https://stay-finder-deployed.vercel.app/",
   },
+    {
+    id: 1,
+    title: "3D MotionCity",
+    description:
+      "AExperience a dynamic 3D animated city that reacts as you scroll smooth, engaging, and fully interactive. From motion to depth, every detail is crafted for visual impact. Dive in and explore the vibe.",
+    image: cityLogo,
+    tags: ["HTML", "CSS", "Javascript", "GSAP"],
+    github: "https://github.com/Harshit-HK/GSAP-animation/tree/main/GSAP_animation",
+    webapp: "gsap-animation-b4ij.vercel.app",
+  },
+
   {
     id: 2,
     title: "Host Panel of Stay Finder",
@@ -227,8 +227,19 @@ export const projects = [
     github: "https://github.com/Harshit-HK/Stay-Finder",
     webapp: "https://stay-finder-deployed-j9oo.vercel.app",
   },
+  
   {
     id: 3,
+    title: "3D Portfolio",
+    description:
+      "A modern 3D portfolio website built with HTML, CSS, and JavaScript, featuring smooth animations and interactive elements to showcase projects, skills, and contact info in a visually engaging way. Designed for a standout first impression with responsive and user-friendly UI.",
+    image: portfolioLogo,
+    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
+    github: "https://github.com/Harshit-HK/3D-Portfolio",
+    webapp: "https://3-d-portfolio-snowy-phi.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Forever",
     description:
       "A full-stack E-Commerce Web App where users can browse, search, and filter products, view product details, add to cart, and place orders with payment gateway. Includes JWT authentication, real-time cart updates. An admin panel allows managing products, updating stock, and handling orders. Built for a fast, clean, and scalable online shopping experience.",
@@ -245,18 +256,20 @@ export const projects = [
       "https://github.com/Harshit-HK/E-Commerce-Web-Applicatio/tree/main/E-Commerce-Web-Applicatio",
     webapp: "https://forever-deployed-iim9.vercel.app/",
   },
-  {
-    id: 4,
-    title: "3D Portfolio",
+  
+    {
+    id: 5,
+    title: "GitHub Profile Detective",
     description:
-      "A modern 3D portfolio website built with HTML, CSS, and JavaScript, featuring smooth animations and interactive elements to showcase projects, skills, and contact info in a visually engaging way. Designed for a standout first impression with responsive and user-friendly UI.",
-    image: portfolioLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
-    github: "https://github.com/Harshit-HK/3D-Portfolio",
-    webapp: "https://3-d-portfolio-snowy-phi.vercel.app/",
+      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+    image: githubdetLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+    github:
+      "https://github.com/Harshit-HK/GitHub-Profile-Search/tree/main/GitHub-Profile-detective",
+    webapp: "https://git-hub-profile-search-lake.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Password Manager - Local-Storage",
     description:
       "A secure password manager app that allows users to store and manage their passwords locally on their own computer without any online sync, ensuring full privacy and control. Designed for security, it provides a safe environment to manage credentials.",
@@ -266,7 +279,7 @@ export const projects = [
     webapp: "https://password-manager-local-storage-eta.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     title: "Twitter Clone",
     description:
       "A clean and responsive Twitter clone built using HTML and Tailwind CSS, replicating the core layout and styling of the original platform. Features include a modern navbar, tweet feed layout, profile section, and smooth responsiveness across devices using utility-first CSS classes.",
@@ -276,7 +289,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 7,
+    id: 8,
     title: "Image Search App",
     description:
       "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
@@ -284,15 +297,5 @@ export const projects = [
     tags: ["HTML", "API", "Search Feature", "CSS", "Javascript"],
     github: "https://github.com/Harshit-HK/Search-images/tree/main/Image-Search",
     webapp: "https://search-images-tau.vercel.app/",
-  },
-  {
-    id: 8,
-    title: "Foody Zone",
-    description:
-      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    image: FoodzoneLogo,
-    tags: ["React JS","Tailwind CSS","HTML", "CSS", "Javascript"],
-    github: "https://github.com/Harshit-HK/Foody-zone_/tree/main/P4%20Foody%20Zone",
-    webapp: "-",
   },
 ];
