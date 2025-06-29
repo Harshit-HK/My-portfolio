@@ -207,7 +207,7 @@ export const projects = [
     image: cityLogo,
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
     github: "https://github.com/Harshit-HK/GSAP-animation/tree/main/GSAP_animation",
-    webapp: "gsap-animation-b4ij.vercel.app",
+    webapp: "https://gsap-animation-b4ij.vercel.app/",
   },
 
   {
