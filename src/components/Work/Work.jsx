@@ -1,9 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { projects } from "../../constants";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
- const modalRef = useRef();
+  const [showAll, setShowAll] = useState(false);
+
+  const modalRef = useRef();
   const handleOpenModal = (project) => {
     setSelectedProject(project);
   };
@@ -28,6 +31,8 @@ const Work = () => {
     };
   }, [selectedProject]);
 
+  const visibleProjects = showAll ? projects : projects.slice(0, 6);
+
   return (
     <section
       id="work"
@@ -45,7 +50,7 @@ const Work = () => {
 
       {/* Projects Grid */}
       <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project) => (
+        {visibleProjects.map((project) => (
           <div
             key={project.id}
             onClick={() => handleOpenModal(project)}
@@ -78,6 +83,14 @@ const Work = () => {
             </div>
           </div>
         ))}
+        <div className="text-center mt-12">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="px-6 py-2 bg-purple-600 hover:bg-purple-800 text-white font-semibold rounded-lg transition-all"
+          >
+            {showAll ? "Show Less Projects" : "Show More Projects"}
+          </button>
+        </div>
       </div>
 
       {/* Modal Container */}
@@ -85,7 +98,7 @@ const Work = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4 ">
           <div
             ref={modalRef}
-            className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%]  max-w-3xl max-h-[98vh] overflow-hidden relative"
+            className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%]  max-w-3xl max-h-[98vh] overflow-y-auto  relative"
           >
             <div className="flex justify-end p-4">
               <button
@@ -108,6 +121,15 @@ const Work = () => {
                 <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
                   {selectedProject.title}
                 </h3>
+                {selectedProject?.Note ? (
+                  <p className="text-gray-400 lg:text-base text-xs">
+                    <span className="text-red-600">NOTE: </span>{" "}
+                    {selectedProject.Note}
+                  </p>
+                ) : (
+                  ""
+                )}
+
                 <p className="text-gray-400 mb-6 lg:text-base text-xs">
                   {selectedProject.description}
                 </p>

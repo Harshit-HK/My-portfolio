@@ -185,6 +185,7 @@ export const projects = [
   {
     id: 0,
     title: "Stay Finder",
+      Note: `Backend may be temporarily inactive due to Render's limit reached.`,
     description:
       "A full-stack booking platform where users can explore, filter, and book properties for short stays, while hosts can manage listings, track bookings, and set availability. The platform features secure Stripe payments, real-time location with Google Maps, and dual authentication systems for users and hosts, providing a seamless and scalable stay management experience.",
     image: stayfinderLogo,
@@ -213,6 +214,7 @@ export const projects = [
   {
     id: 2,
     title: "Host Panel of Stay Finder",
+      Note: `Backend may be temporarily inactive due to Render's limit reached.`,
     description:
       "A full-stack booking platform multi-host panel where hosts can log in, add, update, or delete property listings, manage bookings, and set availability. Hosts can set their property location using Google Maps for real-time location input, offering a scalable and secure property management system.",
     image: StayhostLogo,
@@ -241,6 +243,7 @@ export const projects = [
   {
     id: 4,
     title: "Forever",
+      Note: `Backend may be temporarily inactive due to Render's limit reached.`,
     description:
       "A full-stack E-Commerce Web App where users can browse, search, and filter products, view product details, add to cart, and place orders with payment gateway. Includes JWT authentication, real-time cart updates. An admin panel allows managing products, updating stock, and handling orders. Built for a fast, clean, and scalable online shopping experience.",
     image: foleverLogo,
