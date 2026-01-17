@@ -88,7 +88,7 @@ const Work = () => {
             onClick={() => setShowAll(!showAll)}
             className="px-6 py-2 bg-purple-600 hover:bg-purple-800 text-white font-semibold rounded-lg transition-all"
           >
-            {showAll ? "Show Less Projects" : "Show More Projects"}
+            {showAll ? "Show Less Projects" : "Show All Projects"}
           </button>
         </div>
       </div>
@@ -144,22 +144,43 @@ const Work = () => {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a
-                    href={selectedProject.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
-                  >
-                    View Code
-                  </a>
-                  <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
-                  >
-                    View Live
-                  </a>
+                  {/* View Live */}
+                  {!selectedProject.codeRestricted ? (
+                    <a
+                      href={selectedProject.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    >
+                      View Code
+                    </a>
+                  ) : (
+                    <button
+                      disabled
+                      className="w-1/2 bg-gray-700 cursor-not-allowed text-gray-500 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold"
+                    >
+                      View Code Restricted
+                    </button>
+                  )}
+
+                  {/* View Live */}
+                  {!selectedProject.livePreviewRestricted ? (
+                    <a
+                      href={selectedProject.webapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    >
+                      View Live
+                    </a>
+                  ) : (
+                    <button
+                      disabled
+                      className="w-1/2 bg-purple-900 cursor-not-allowed text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold"
+                    >
+                      Live Restricted
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

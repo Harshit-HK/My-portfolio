@@ -33,6 +33,8 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 import ibmLogo from "./assets/company_logo/ibm_logo.png";
 import inffvirtechLogo from "./assets/company_logo/infovirtech_logo.png";
 import techmahindraLogo from "./assets/company_logo/techmahindra_logo.png";
+import VVS_logo from "./assets/company_logo/VVS_logo.png";
+
 // Education Section Logo's
 import sjhLogo from "./assets/education_logo/sjh_logo.png";
 import vimLogo from "./assets/education_logo/vim_logo.png";
@@ -48,10 +50,11 @@ import passopLogo from "./assets/work_logo/passop.png";
 import cityLogo from "./assets/work_logo/3D_City.png";
 import imagesearchLogo from "./assets/work_logo/image_search.png";
 import twitterLogo from "./assets/work_logo/twitter.png";
-
-
-
-
+import Foodzone from "./assets/work_logo/Foodzone.png";
+import DdiceGame from "./assets/work_logo/DdiceGame.png";
+import Kanban from "./assets/work_logo/Kanban.png";
+import vvsecommerce from "./assets/work_logo/vvsecommerce.png";
+import adminvvs from "./assets/work_logo/adminvvs.png";
 
 export const SkillsInfo = [
   {
@@ -108,6 +111,44 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
+    img: techmahindraLogo,
+    role: "Tech support Associate",
+    company: "Tech Mahindra",
+    date: "Aug 2025 - Present",
+    desc: "Worked at Tech Mahindra as an Enterprise Application support, gaining exposure to a corporate environment and enhancing communication and problem-solving skills.",
+    skills: [
+      "Team collaboration",
+      "Effective",
+      "communication",
+      "English proficiency",
+      "Problem-solving",
+      "Adaptability",
+    ],
+  },
+
+  {
+    id: 1,
+    img: VVS_logo,
+    role: "Full Stack Developer",
+    company: "VVS E-Commerce",
+    date: "Feb 2025 - Aug 2025",
+    desc: "At VVS E-Commerce as an Intern, where I worked on, building and improving frontend features & efficiency, handling UI components, and integrating APIs for real-world e-commerce use cases. Gained hands-on experience with modern web technologies, performance optimization, and deployment workflows.",
+    skills: [
+      "React JS",
+      "Node JS",
+      "Express JS",
+      "MySQL",
+      "Cloudinary",
+      "Tailwind CSS",
+      "RESTful APIs",
+      "JWT Authentication",
+      "URL Routing",
+      "cPanel Deployment",
+    ],
+  },
+
+  {
+    id: 2,
     img: ibmLogo,
     role: "Data Analytics internship",
     company: "IBM",
@@ -116,7 +157,7 @@ export const experiences = [
     skills: ["Python", "Data Cleaning", "Data Visualization", "SQL"],
   },
   {
-    id: 1,
+    id: 3,
     img: inffvirtechLogo,
     role: "Java Internship ",
     company: "INFOVIRTECH",
@@ -132,22 +173,6 @@ export const experiences = [
       "MySQL",
       "JDBC",
       "Git",
-    ],
-  },
-  {
-    id: 2,
-    img: techmahindraLogo,
-    role: "Associate",
-    company: "Tech Mahindra",
-    date: "Oct 2023 - Jan 2024",
-    desc: "Worked at Tech Mahindra as an Associate, gaining exposure to a corporate environment and enhancing communication and problem-solving skills.",
-    skills: [
-      "Effective",
-      "communication",
-      "English proficiency",
-      "Problem-solving",
-      "Team collaboration",
-      "Adaptability",
     ],
   },
 ];
@@ -199,14 +224,15 @@ export const projects = [
     github: "https://github.com/Harshit-HK/Stay-Finder",
     webapp: "https://stay-finder-deployed.vercel.app/",
   },
-    {
+  {
     id: 1,
     title: "3D MotionCity",
     description:
       "AExperience a dynamic 3D animated city that reacts as you scroll smooth, engaging, and fully interactive. From motion to depth, every detail is crafted for visual impact. Dive in and explore the vibe.",
     image: cityLogo,
     tags: ["HTML", "CSS", "Javascript", "GSAP"],
-    github: "https://github.com/Harshit-HK/GSAP-animation/tree/main/GSAP_animation",
+    github:
+      "https://github.com/Harshit-HK/GSAP-animation/tree/main/GSAP_animation",
     webapp: "https://gsap-animation-b4ij.vercel.app/",
   },
 
@@ -227,7 +253,7 @@ export const projects = [
     github: "https://github.com/Harshit-HK/Stay-Finder",
     webapp: "https://stay-finder-deployed-j9oo.vercel.app",
   },
-  
+
   {
     id: 3,
     title: "3D Portfolio",
@@ -256,8 +282,8 @@ export const projects = [
       "https://github.com/Harshit-HK/E-Commerce-Web-Applicatio/tree/main/E-Commerce-Web-Applicatio",
     webapp: "https://forever-deployed-iim9.vercel.app/",
   },
-  
-    {
+
+  {
     id: 5,
     title: "GitHub Profile Detective",
     description:
@@ -275,7 +301,8 @@ export const projects = [
       "A secure password manager app that allows users to store and manage their passwords locally on their own computer without any online sync, ensuring full privacy and control. Designed for security, it provides a safe environment to manage credentials.",
     image: passopLogo,
     tags: ["HTML", "Tailwind CSS"],
-    github: "https://github.com/Harshit-HK/Password-Manager-Local-Storage/tree/main/passop",
+    github:
+      "https://github.com/Harshit-HK/Password-Manager-Local-Storage/tree/main/passop",
     webapp: "https://password-manager-local-storage-eta.vercel.app",
   },
   {
@@ -285,7 +312,8 @@ export const projects = [
       "A clean and responsive Twitter clone built using HTML and Tailwind CSS, replicating the core layout and styling of the original platform. Features include a modern navbar, tweet feed layout, profile section, and smooth responsiveness across devices using utility-first CSS classes.",
     image: twitterLogo,
     tags: ["HTML", "Tailwind CSS"],
-    github: "https://github.com/Harshit-HK/Twitter-Clone/tree/main/Twitter%20Clone",
+    github:
+      "https://github.com/Harshit-HK/Twitter-Clone/tree/main/Twitter%20Clone",
     webapp: "",
   },
   {
@@ -295,7 +323,98 @@ export const projects = [
       "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
     image: imagesearchLogo,
     tags: ["HTML", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/Harshit-HK/Search-images/tree/main/Image-Search",
+    github:
+      "https://github.com/Harshit-HK/Search-images/tree/main/Image-Search",
     webapp: "https://search-images-tau.vercel.app/",
   },
+  {
+    id: 9,
+    title: "Real Time Kanban Board",
+    description:
+      "A full-stack real-time Kanban board application built for efficient team collaboration, task tracking, and smart assignment. Supports live updates, drag-and-drop tasks, activity logs, and conflict detection.",
+    image: Kanban,
+    tags: [
+      "React.js",
+      "Socket.IO client",
+      "Socket.IO server",
+      "Node.js",
+      "Express.js",
+      "API",
+      "MongoDB",
+      "JWT authentication",
+    ],
+    github:
+      "https://github.com/Harshit-HK/Real-Time-Collaborative-Kanban_Board",
+    webapp: "https://real-time-collaborative-kanban-boar.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Foody Zone",
+    description:
+      "Foody Zone is a full-stack food web application that delivers a responsive and interactive user experience using React.js and Tailwind CSS, with a robust backend built on Node.js, Express.js, and MongoDB for data handling.",
+    image: Foodzone,
+    tags: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB"],
+    github: "https://github.com/Harshit-HK/Foody-Zone/tree/main/Foody%20Zone",
+    webapp: "foody-zone-foody.vercel.app",
+  },
+  {
+    id: 11,
+    title: "Dice Game",
+    description:
+      "A fun and interactive dice game built with React.js and Tailwind CSS, featuring a responsive design and smooth animations for an engaging user experience.",
+    image: DdiceGame,
+    tags: ["React.js", "Tailwind CSS"],
+    github:
+      "https://github.com/Harshit-HK/Dice-game/tree/main/P3%20Dice%20Game",
+    webapp: "dice-game-eight-pink.vercel.app",
+  },
+  {
+    id: 12,
+    title: "VVS E-Commerce Services",
+    description:
+      "A production-ready e-commerce web application designed and developed with a modern tech stack. Implemented dynamic product management, optimized image formats (SVG, WebP, AVIF), and social media preview handling for product sharing. The project emphasizes performance optimization, clean UI, and scalable architecture.",
+    codeRestricted: true,
+    image: vvsecommerce,
+    Note: "Source code is restricted to view due to client confidentiality.",
+    tags: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "API", "MySQL"],
+    github: "",
+    webapp: "https://vvsecommerce.com",
+  },
+  {
+    id: 13,
+    title: "Admin VVS E-Commerce Services",
+    description:
+      "CLIENT PROJECT (SOURCE CODE & VIEW LIVE IS RESTRICTED )- The admin panel enables complete control over the e-commerce platform, including service creation, updates, and service management. Administrators can manage product visibility, pricing, media assets and can add more admins while monitoring platform content to ensure accuracy and consistency.",
+    image: adminvvs,
+    Note: "Source code & View Live is restricted  due to client confidentiality.",
+    codeRestricted: true,
+    livePreviewRestricted: true,
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "Tailwind CSS",
+      "API",
+      "JWT Authentication",
+    ],
+    github: "",
+    webapp: "",
+  },
+  // {
+  //   id: 10,
+  //   title: "Therapy Website",
+  //   description:
+  //     "A modern, responsive website designed for a therapy and counseling practice. This project features elegant UI components, professional layout, and is fully optimized for desktop and mobile devices.",
+  //   image: imagesearchLogo,
+  //   tags: [
+  //     "React.js",
+  //     "Next.js",
+  //     "Tailwind CSS",
+  //     "Google Fonts",
+  //     "React Icons",
+  //   ],
+  //   github: "https://github.com/Harshit-HK/Assignment-Therapist-Website",
+  //   webapp: "",
+  // },
 ];

@@ -26,7 +26,8 @@ const Experience = () => {
           <div
             key={experience.id}
             className={`flex flex-col lg:flex-row items-center mb-16 ${
-              index % 2 === 0 ? "lg:justify-end" :  "lg:justify-start"
+              index % 2 === 0 ? "lg:justify-start" : "lg:justify-end"
+              // "lg:justify-end" :  "lg:justify-start"
             }`}
           >
             {/* Timeline Circle */}
