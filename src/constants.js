@@ -52,7 +52,7 @@ import imagesearchLogo from "./assets/work_logo/image_search.png";
 import twitterLogo from "./assets/work_logo/twitter.png";
 import Foodzone from "./assets/work_logo/Foodzone.png";
 import DdiceGame from "./assets/work_logo/DdiceGame.png";
-import Kanban from "./assets/work_logo/Kanban.png";
+import Kanban from "./assets/work_logo/kanban.png";
 import vvsecommerce from "./assets/work_logo/vvsecommerce.png";
 import adminvvs from "./assets/work_logo/adminvvs.png";
 
