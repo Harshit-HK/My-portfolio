@@ -15,7 +15,8 @@ const Contact = () => {
         "service_onkkr68",  // EmailJS Service ID
         "template_jsobo3f",  // EmailJS Template ID
         form.current,
-        "RBc7OcIS8A3Xxtdu5"  // EmailJS Public Key
+        "gKWaLJtRUSK2b3DdV"  // EmailJS Public Key
+        
       )
       .then(
         () => {
@@ -32,7 +33,7 @@ const Contact = () => {
           });
         },
         (error) => {
-          console.error("Error sending message:", error);
+          console.error(`Error sending message: ${error.message}`);
           toast.error("Failed to send message. Please try again.", {
             position: "top-right",
             autoClose: 3000,
