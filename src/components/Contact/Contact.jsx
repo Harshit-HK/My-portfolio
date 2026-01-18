@@ -16,13 +16,12 @@ const Contact = () => {
         "template_jsobo3f",  // EmailJS Template ID
         form.current,
         "gKWaLJtRUSK2b3DdV"  // EmailJS Public Key
-        
       )
       .then(
         () => {
           setIsSent(true);
           form.current.reset(); // Reset form fields after sending
-          toast.success("Message sent successfully! ✅", {
+          toast.success("Message sent successfully!", {
             position: "top-right",
             autoClose: 3000,
             hideProgressBar: false,
