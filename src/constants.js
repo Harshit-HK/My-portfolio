@@ -55,6 +55,7 @@ import DdiceGame from "./assets/work_logo/DdiceGame.png";
 import Kanban from "./assets/work_logo/kanban.png";
 import vvsecommerce from "./assets/work_logo/vvsecommerce.png";
 import adminvvs from "./assets/work_logo/adminvvs.png";
+import Therapy from "./assets/work_logo/Therapy.png";
 
 export const SkillsInfo = [
   {
@@ -253,123 +254,8 @@ export const projects = [
     github: "https://github.com/Harshit-HK/Stay-Finder",
     webapp: "https://stay-finder-deployed-j9oo.vercel.app",
   },
-
   {
     id: 3,
-    title: "3D Portfolio",
-    description:
-      "A modern 3D portfolio website built with HTML, CSS, and JavaScript, featuring smooth animations and interactive elements to showcase projects, skills, and contact info in a visually engaging way. Designed for a standout first impression with responsive and user-friendly UI.",
-    image: portfolioLogo,
-    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
-    github: "https://github.com/Harshit-HK/3D-Portfolio",
-    webapp: "https://3-d-portfolio-snowy-phi.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Forever",
-    description:
-      "A full-stack E-Commerce Web App where users can browse, search, and filter products, view product details, add to cart, and place orders with payment gateway. Includes JWT authentication, real-time cart updates. An admin panel allows managing products, updating stock, and handling orders. Built for a fast, clean, and scalable online shopping experience.",
-    image: foleverLogo,
-    tags: [
-      "React JS",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Cloudinary",
-      "Tailwind CSS",
-    ],
-    github:
-      "https://github.com/Harshit-HK/E-Commerce-Web-Applicatio/tree/main/E-Commerce-Web-Applicatio",
-    webapp: "https://forever-deployed-iim9.vercel.app/",
-  },
-
-  {
-    id: 5,
-    title: "GitHub Profile Detective",
-    description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/Harshit-HK/GitHub-Profile-Search/tree/main/GitHub-Profile-detective",
-    webapp: "https://git-hub-profile-search-lake.vercel.app/",
-  },
-  {
-    id: 6,
-    title: "Password Manager - Local-Storage",
-    description:
-      "A secure password manager app that allows users to store and manage their passwords locally on their own computer without any online sync, ensuring full privacy and control. Designed for security, it provides a safe environment to manage credentials.",
-    image: passopLogo,
-    tags: ["HTML", "Tailwind CSS"],
-    github:
-      "https://github.com/Harshit-HK/Password-Manager-Local-Storage/tree/main/passop",
-    webapp: "https://password-manager-local-storage-eta.vercel.app",
-  },
-  {
-    id: 7,
-    title: "Twitter Clone",
-    description:
-      "A clean and responsive Twitter clone built using HTML and Tailwind CSS, replicating the core layout and styling of the original platform. Features include a modern navbar, tweet feed layout, profile section, and smooth responsiveness across devices using utility-first CSS classes.",
-    image: twitterLogo,
-    tags: ["HTML", "Tailwind CSS"],
-    github:
-      "https://github.com/Harshit-HK/Twitter-Clone/tree/main/Twitter%20Clone",
-    webapp: "",
-  },
-  {
-    id: 8,
-    title: "Image Search App",
-    description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["HTML", "API", "Search Feature", "CSS", "Javascript"],
-    github:
-      "https://github.com/Harshit-HK/Search-images/tree/main/Image-Search",
-    webapp: "https://search-images-tau.vercel.app/",
-  },
-  {
-    id: 9,
-    title: "Real Time Kanban Board",
-    description:
-      "A full-stack real-time Kanban board application built for efficient team collaboration, task tracking, and smart assignment. Supports live updates, drag-and-drop tasks, activity logs, and conflict detection.",
-    image: Kanban,
-    tags: [
-      "React.js",
-      "Socket.IO client",
-      "Socket.IO server",
-      "Node.js",
-      "Express.js",
-      "API",
-      "MongoDB",
-      "JWT authentication",
-    ],
-    github:
-      "https://github.com/Harshit-HK/Real-Time-Collaborative-Kanban_Board",
-    webapp: "https://real-time-collaborative-kanban-boar.vercel.app/",
-  },
-  {
-    id: 10,
-    title: "Foody Zone",
-    description:
-      "Foody Zone is a full-stack food web application that delivers a responsive and interactive user experience using React.js and Tailwind CSS, with a robust backend built on Node.js, Express.js, and MongoDB for data handling.",
-    image: Foodzone,
-    tags: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB"],
-    github: "https://github.com/Harshit-HK/Foody-Zone/tree/main/Foody%20Zone",
-    webapp: "foody-zone-foody.vercel.app",
-  },
-  {
-    id: 11,
-    title: "Dice Game",
-    description:
-      "A fun and interactive dice game built with React.js and Tailwind CSS, featuring a responsive design and smooth animations for an engaging user experience.",
-    image: DdiceGame,
-    tags: ["React.js", "Tailwind CSS"],
-    github:
-      "https://github.com/Harshit-HK/Dice-game/tree/main/P3%20Dice%20Game",
-    webapp: "dice-game-eight-pink.vercel.app",
-  },
-  {
-    id: 12,
     title: "VVS E-Commerce Services",
     description:
       "A production-ready e-commerce web application designed and developed with a modern tech stack. Implemented dynamic product management, optimized image formats (SVG, WebP, AVIF), and social media preview handling for product sharing. The project emphasizes performance optimization, clean UI, and scalable architecture.",
@@ -380,8 +266,20 @@ export const projects = [
     github: "",
     webapp: "https://vvsecommerce.com",
   },
+
   {
-    id: 13,
+    id: 4,
+    title: "3D Portfolio",
+    description:
+      "A modern 3D portfolio website built with HTML, CSS, and JavaScript, featuring smooth animations and interactive elements to showcase projects, skills, and contact info in a visually engaging way. Designed for a standout first impression with responsive and user-friendly UI.",
+    image: portfolioLogo,
+    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
+    github: "https://github.com/Harshit-HK/3D-Portfolio",
+    webapp: "https://3-d-portfolio-snowy-phi.vercel.app/",
+  },
+
+  {
+    id: 5,
     title: "Admin VVS E-Commerce Services",
     description:
       "CLIENT PROJECT (SOURCE CODE & VIEW LIVE IS RESTRICTED )- The admin panel enables complete control over the e-commerce platform, including service creation, updates, and service management. Administrators can manage product visibility, pricing, media assets and can add more admins while monitoring platform content to ensure accuracy and consistency.",
@@ -401,20 +299,128 @@ export const projects = [
     github: "",
     webapp: "",
   },
-  // {
-  //   id: 10,
-  //   title: "Therapy Website",
-  //   description:
-  //     "A modern, responsive website designed for a therapy and counseling practice. This project features elegant UI components, professional layout, and is fully optimized for desktop and mobile devices.",
-  //   image: imagesearchLogo,
-  //   tags: [
-  //     "React.js",
-  //     "Next.js",
-  //     "Tailwind CSS",
-  //     "Google Fonts",
-  //     "React Icons",
-  //   ],
-  //   github: "https://github.com/Harshit-HK/Assignment-Therapist-Website",
-  //   webapp: "",
-  // },
+  {
+    id: 6,
+    title: "Forever",
+    description:
+      "A full-stack E-Commerce Web App where users can browse, search, and filter products, view product details, add to cart, and place orders with payment gateway. Includes JWT authentication, real-time cart updates. An admin panel allows managing products, updating stock, and handling orders. Built for a fast, clean, and scalable online shopping experience.",
+    image: foleverLogo,
+    tags: [
+      "React JS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+      "Tailwind CSS",
+    ],
+    github:
+      "https://github.com/Harshit-HK/E-Commerce-Web-Applicatio/tree/main/E-Commerce-Web-Applicatio",
+    webapp: "https://forever-deployed-iim9.vercel.app/",
+  },
+
+  {
+    id: 7,
+    title: "GitHub Profile Detective",
+    description:
+      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+    image: githubdetLogo,
+    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+    github:
+      "https://github.com/Harshit-HK/GitHub-Profile-Search/tree/main/GitHub-Profile-detective",
+    webapp: "https://git-hub-profile-search-lake.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Real Time Kanban Board",
+    description:
+      "A full-stack real-time Kanban board application built for efficient team collaboration, task tracking, and smart assignment. Supports live updates, drag-and-drop tasks, activity logs, and conflict detection.",
+    image: Kanban,
+    tags: [
+      "React.js",
+      "Socket.IO client",
+      "Socket.IO server",
+      "Node.js",
+      "Express.js",
+      "API",
+      "MongoDB",
+      "JWT authentication",
+    ],
+    github:
+      "https://github.com/Harshit-HK/Real-Time-Collaborative-Kanban_Board",
+    webapp: "https://real-time-collaborative-kanban-boar.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Dice Game",
+    description:
+      "A fun and interactive dice game built with React.js and Tailwind CSS, featuring a responsive design and smooth animations for an engaging user experience.",
+    image: DdiceGame,
+    tags: ["React.js", "Tailwind CSS"],
+    github:
+      "https://github.com/Harshit-HK/Dice-game/tree/main/P3%20Dice%20Game",
+    webapp: "dice-game-eight-pink.vercel.app",
+  },
+  {
+    id: 10,
+    title: "Twitter Clone",
+    description:
+      "A clean and responsive Twitter clone built using HTML and Tailwind CSS, replicating the core layout and styling of the original platform. Features include a modern navbar, tweet feed layout, profile section, and smooth responsiveness across devices using utility-first CSS classes.",
+    image: twitterLogo,
+    tags: ["HTML", "Tailwind CSS"],
+    github:
+      "https://github.com/Harshit-HK/Twitter-Clone/tree/main/Twitter%20Clone",
+    webapp: "",
+  },
+  {
+    id: 1,
+    title: "Image Search App",
+    description:
+      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+    image: imagesearchLogo,
+    tags: ["HTML", "API", "Search Feature", "CSS", "Javascript"],
+    github:
+      "https://github.com/Harshit-HK/Search-images/tree/main/Image-Search",
+    webapp: "https://search-images-tau.vercel.app/",
+  },
+
+  {
+    id: 12,
+    title: "Password Manager - Local-Storage",
+    description:
+      "A secure password manager app that allows users to store and manage their passwords locally on their own computer without any online sync, ensuring full privacy and control. Designed for security, it provides a safe environment to manage credentials.",
+    image: passopLogo,
+    tags: ["HTML", "Tailwind CSS"],
+    github:
+      "https://github.com/Harshit-HK/Password-Manager-Local-Storage/tree/main/passop",
+    webapp: "https://password-manager-local-storage-eta.vercel.app",
+  },
+
+  {
+    id: 13,
+    title: "Foody Zone",
+    description:
+      "Foody Zone is a full-stack food web application that delivers a responsive and interactive user experience using React.js and Tailwind CSS, with a robust backend built on Node.js, Express.js, and MongoDB for data handling.",
+    image: Foodzone,
+    tags: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB"],
+    github: "https://github.com/Harshit-HK/Foody-Zone/tree/main/Foody%20Zone",
+    webapp: "foody-zone-foody.vercel.app",
+  },
+
+  {
+    id: 14,
+    title: "Therapy Website",
+    description:
+      "A modern, responsive website designed for a therapy and counseling practice. This project features elegant UI components, professional layout, and is fully optimized for desktop and mobile devices.",
+    image: Therapy,
+    livePreviewRestricted: true,
+    tags: [
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Google Fonts",
+      "React Icons",
+    ],
+    github: "https://github.com/Harshit-HK/Assignment-Therapist-Website",
+    webapp: "",
+  },
 ];
