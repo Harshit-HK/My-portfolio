@@ -412,7 +412,6 @@ export const projects = [
     description:
       "A modern, responsive website designed for a therapy and counseling practice. This project features elegant UI components, professional layout, and is fully optimized for desktop and mobile devices.",
     image: Therapy,
-    livePreviewRestricted: true,
     tags: [
       "React.js",
       "Next.js",
@@ -421,6 +420,6 @@ export const projects = [
       "React Icons",
     ],
     github: "https://github.com/Harshit-HK/Assignment-Therapist-Website",
-    webapp: "",
+    webapp: "https://assignment-therapist-website-theta.vercel.app/",
   },
 ];
