@@ -369,10 +369,10 @@ export const projects = [
     tags: ["HTML", "Tailwind CSS"],
     github:
       "https://github.com/Harshit-HK/Twitter-Clone/tree/main/Twitter%20Clone",
-    webapp: "",
+    webapp: "twitter-clone-6h9f-lx6inb76r.vercel.app",
   },
   {
-    id: 1,
+    id: 11,
     title: "Image Search App",
     description:
       "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
