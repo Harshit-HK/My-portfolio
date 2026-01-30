@@ -112,23 +112,6 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: techmahindraLogo,
-    role: "Tech support Associate",
-    company: "Tech Mahindra",
-    date: "Aug 2025 - Present",
-    desc: "Worked at Tech Mahindra as an Enterprise Application support, gaining exposure to a corporate environment and enhancing communication and problem-solving skills.",
-    skills: [
-      "Team collaboration",
-      "Effective",
-      "communication",
-      "English proficiency",
-      "Problem-solving",
-      "Adaptability",
-    ],
-  },
-
-  {
-    id: 1,
     img: VVS_logo,
     role: "Full Stack Developer",
     company: "VVS E-Commerce",
@@ -149,7 +132,7 @@ export const experiences = [
   },
 
   {
-    id: 2,
+    id: 1,
     img: ibmLogo,
     role: "Data Analytics internship",
     company: "IBM",
@@ -158,7 +141,7 @@ export const experiences = [
     skills: ["Python", "Data Cleaning", "Data Visualization", "SQL"],
   },
   {
-    id: 3,
+    id: 2,
     img: inffvirtechLogo,
     role: "Java Internship ",
     company: "INFOVIRTECH",
