@@ -341,7 +341,7 @@ export const projects = [
     tags: ["React.js", "Tailwind CSS"],
     github:
       "https://github.com/Harshit-HK/Dice-game/tree/main/P3%20Dice%20Game",
-    webapp: "dice-game-eight-pink.vercel.app",
+    webapp: "https://dice-game-eight-pink.vercel.app",
   },
   {
     id: 10,
@@ -352,7 +352,7 @@ export const projects = [
     tags: ["HTML", "Tailwind CSS"],
     github:
       "https://github.com/Harshit-HK/Twitter-Clone/tree/main/Twitter%20Clone",
-    webapp: "twitter-clone-6h9f-lx6inb76r.vercel.app",
+    webapp: "https://twitter-clone-6h9f-lx6inb76r.vercel.app",
   },
   {
     id: 11,
@@ -386,7 +386,7 @@ export const projects = [
     image: Foodzone,
     tags: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB"],
     github: "https://github.com/Harshit-HK/Foody-Zone/tree/main/Foody%20Zone",
-    webapp: "foody-zone-foody.vercel.app",
+    webapp: "https://foody-zone-foody.vercel.app",
   },
 
   {
